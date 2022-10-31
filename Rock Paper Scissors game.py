@@ -1,7 +1,7 @@
 # This is a sample Python script.
 import random
 print("Welcome, This is rock paper scissors game between you and the CPU")
-print("Enter your name")
+print("Enter your name here")
 name = input()
 print("Rules : s for Stone || p for Paper || sc for Scissors")
 q = ("s","p","sc")
@@ -16,7 +16,7 @@ while p<=3 and antip<=3:
         if move == 's':
             print("Cpu : Stone ")
             print("You : Stone ")
-            print("No points play again")
+            print("No points awarded, play again")
             print("You:", p, "CPU:", antip)
         if move == 'p':
             print("Cpu : Stone ")
@@ -40,7 +40,7 @@ while p<=3 and antip<=3:
         if move == 'p':
             print("Cpu : Paper ")
             print("You : Paper ")
-            print("No points play again")
+            print("No points awarded, play again")
             print("You:", p, "CPU:", antip)
         if move == 'sc':
             print("Cpu : Paper ")
@@ -64,11 +64,11 @@ while p<=3 and antip<=3:
         if move == 'sc':
             print("Cpu : Scissors ")
             print("You : Scissors ")
-            print("No points awarded play again")
+            print("No points awarded, play again")
             print("You:", p, "CPU:", antip)
 if p == 4:
     print(name,"won the match")
 else:
     print("CPU won the match")
-end =input("Now press 1 to exit")
+end =input("Please press 1 to exit")
 
