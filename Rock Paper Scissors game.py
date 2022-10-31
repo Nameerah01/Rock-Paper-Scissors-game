@@ -1,6 +1,6 @@
 # This is a sample Python script.
 import random
-print("Hey! This is a Rock-Paper-Scissors Game between you and CPU")
+print("Welcome, This is rock paper scissors game between you and the CPU")
 print("Enter your name")
 name = input()
 print("Rules : s for Stone || p for Paper || sc for Scissors")
@@ -64,7 +64,7 @@ while p<=3 and antip<=3:
         if move == 'sc':
             print("Cpu : Scissors ")
             print("You : Scissors ")
-            print("No points play again")
+            print("No points awarded play again")
             print("You:", p, "CPU:", antip)
 if p == 4:
     print(name,"won the match")
